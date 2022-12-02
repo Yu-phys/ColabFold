@@ -151,7 +151,7 @@ def mk_template(
 ) -> Dict[str, Any]:
     template_featurizer = templates.HhsearchHitFeaturizer(
         mmcif_dir=template_path,
-        max_template_date="2100-01-01",
+        max_template_date="2022-09-09",
         max_hits=20,
         kalign_binary_path="kalign",
         release_dates_path=None,
